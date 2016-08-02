@@ -1,0 +1,10 @@
+{
+  "name": "code-task_server",
+  "main": "server.js",
+  "dependencies": {
+        "express": "~4.10.0",
+        "body-parser": "~1.14.0",
+        "request": "*",
+        "util": "*"
+    }
+}

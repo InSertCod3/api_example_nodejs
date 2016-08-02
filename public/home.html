@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1" />
+  <title>Loco-Mote Task</title>
+  <link rel="stylesheet" href="dist/milligram-1.1.0/dist/milligram.css" />
+  <script src="dist/jquery/jquery-3.0.0.min.js"></script>
+</head>
+
+<body>
+  <main class="wrapper">
+
+    <label for="from_location">From location</label>
+    <input type="text" placeholder="Starting Destination (ex. Sydney)" id="from" value="SYD">
+    <label for="to_location">To location</label>
+    <input type="text" placeholder="To Destination (ex. Heathrow)" id="to" value="JFK">
+    <label for="date">Date</label>
+    <input type="text" placeholder="Date (ex. 2016-09-02)" id="date" value="2016-09-02">
+    <input id="sb-btn" class="button-primary" type="submit" value="Search">
+    <strong> Click Search to get results<strong>
+    <br><br>
+    <h3>Flights</h3>
+    <table id="flight_table">
+  <thead>
+    <tr><th>Flight #</th><th>Distance</th><th>Duration(Min)</th><th>Price</th><th>Start time</th><th>Start airport</th><th>End time</th><th>End airport</th></tr>
+  </thead>
+  <tbody id="flt_table_data">  </tbody>
+</table>
+
+  </main>
+  <script src="dist/js/main.js"></script>
+</body>
+
+</html>
